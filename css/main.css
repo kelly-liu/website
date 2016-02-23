@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'NexaLight';
+    src: url('NexaLight.otf');
+}
+
+@font-face {
+	font-family: 'AlegreyaSans';
+	src: url('fonts/AlegreyaSansSC-Light.ttf');
+}
+
+body {
+    margin: 0;
+    font-family: 'NexaLight', sans-serif;
+    font-weight: 200;
+    line-height: 1.5;
+    color:#787878;
+}
+
+header {
+	margin: 0%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 2% 0;
+    background-color: #FF8170;
+}
+
+.logo {
+	display: -webkit-flex;
+	display: flex;
+}
+
+.navlinks {
+	font-family: 'AlegreyaSans', sans-serif;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: flex-end;
+    justify-content: flex-end;
+	float: right;
+	margin-right: 3%;
+	width:100%;
+}
+
+.navlinks a {
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+h1{
+	font-weight: normal;
+	max-width: 100%;
+	height:auto;
+	font-family: 'AlegreyaSans', sans-serif;
+	color:#545454;
+}
+
+h2 {
+	font-family: 'AlegreyaSans', sans-serif;
+	color:#787878;
+
+}
+.title{
+	font-family: 'AlegreyaSans', sans-serif;
+	font-size: 100px;
+	font-weight: normal;
+	max-width: 100%;
+	height:auto;
+	padding-right: 10%;
+	margin-bottom: 0%;
+	color:#545454;
+}
+
+.center {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    
+}
+
+.banner {
+	padding: 10% 0%;
+}
+
+.banner img {
+	max-width: 100%;
+	height: auto;
+	margin-left: 0%;
+}
+
+a {
+	text-decoration: none;
+	margin: 0% 2%;
+	max-width: 100%;
+	height:auto;
+	color:#787878;
+}
+
+.tagline{
+	padding-left: 5%;
+}
+
+.vert-align{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+
+}
+
+.arrow-down {
+	display: block;
+	margin: 6% auto 0 auto;
+	padding: 4%;
+	outline:none;
+}
+
+img {
+	outline:none;
+	border: 0;
+}
+

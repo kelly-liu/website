@@ -1,0 +1,81 @@
+.circle-big {
+	width: 200px;
+	height: 200px;
+
+	text-align:center;
+	text-decoration: none;
+	color:#FFF;
+
+	position:relative;
+	margin: 1%
+}
+
+.circle-big img {
+	width: 100%;
+/*	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+		-moz-border-radius: 10%;
+	-webkit-border-radius: 10%;
+	border-radius: 10%;*/
+}
+
+.circTextBox:hover{
+	opacity:1;
+	transition:.5s;
+}
+
+
+.circleWrapper { /* needed wrapper same size as circle to make table */
+	position:absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height:100%;
+	display: table;
+}
+
+.circTextBox {
+/*	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;*/
+	display: table-cell;
+	vertical-align: middle;
+	opacity:0;
+	transition:.5s;
+	background:rgba(49, 44, 109, .7);
+}
+
+h1 {
+	font-size:30px;
+	line-height:1em;
+	margin: 0%;
+	color:#FFFFFF;
+}
+
+p{
+	font-size:15px;
+	margin:1%;
+	color:#FFFFFF;
+}
+
+.banner-overview {
+	background: rgba(20, 55, 208, .5);
+	/*background: rgba(4,196,182,.5);*/
+	/*background: rgba(95, 54, 184, .5);purple*/
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    align-items: top;
+    padding: 2% 10%  10% 10%;
+}
+
+.summary {
+	display: block;
+	margin:auto;
+	text-align: center;
+	padding: 12% 12%;
+}

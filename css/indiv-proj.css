@@ -1,0 +1,70 @@
+h1 {
+	font-size:3em;
+	margin-top: 5%;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.projPage {
+	margin: 0 5%;
+	padding: 2% 10%  10% 10%;
+}
+
+h4 {
+	margin-top: 0;
+	text-align: center;
+}
+
+.mainImg {
+	margin: 5%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width:100%;
+}
+
+.logo {
+	/*margin-right:10%;*/
+	height:auto;
+	max-width: 100%;
+	float:left;
+}
+
+.projSummary {
+	width:70%;
+	height:auto;
+}
+
+p {
+	margin:0;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+.block {
+	/*background: rgba(20, 55, 208, .5);*/
+	/*background: rgba(4,196,182,.5);*/
+	/*background: rgba(95, 54, 184, .5);purple*/
+    padding: 2% 0;
+}
+
+.center {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    
+}
+
+h3 {
+	font-family: 'AlegreyaSans', sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+.problem {
+	font-size: 1.2em;
+}
