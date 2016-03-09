@@ -25,7 +25,8 @@ header {
     -webkit-align-items: center;
     align-items: center;
     padding: 2% 0;
-    background-color: #FF8170;
+    /*background-color: #FF8170;*/
+    background-color: #03527F;
 }
 
 .logo {
@@ -63,6 +64,11 @@ h2 {
 	color:#787878;
 
 }
+
+h2 a:hover {
+
+} 
+
 .title{
 	font-family: 'AlegreyaSans', sans-serif;
 	font-size: 100px;
@@ -123,8 +129,16 @@ a {
 	outline:none;
 }
 
+.arrow-down:hover {
+	
+}
+
 img {
 	outline:none;
 	border: 0;
+}
+
+.footer {
+	padding-bottom: 5%;
 }
 

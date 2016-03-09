@@ -61,7 +61,8 @@ p{
 }
 
 .banner-overview {
-	background: rgba(20, 55, 208, .5);
+	background: rgba(82,192,255,1);
+	/*background: rgba(20, 55, 208, .5);*/
 	/*background: rgba(4,196,182,.5);*/
 	/*background: rgba(95, 54, 184, .5);purple*/
 	display: -webkit-flex;
@@ -70,7 +71,10 @@ p{
     justify-content: center;
     -webkit-flex-wrap: wrap;
     align-items: top;
-    padding: 2% 10%  10% 10%;
+    padding: 10%;
+    border-style: solid none none none;
+    border-width: 3px;
+    border-color: #F1F1F2;
 }
 
 .summary {
