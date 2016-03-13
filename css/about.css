@@ -2,13 +2,13 @@
 	float:right;
 	max-width: 100%;
 	height:auto;
-	padding: 5% 0%;
 }
 
 .intro {
-	padding: 10% 5%;
+	padding: 10% 9%;
 	display: inline-block;
 	vertical-align: middle;
+	background-color: #FFFFFF;
 
 }
 
@@ -18,13 +18,17 @@
 
 .intro-descrip {
 	float:left;
-	width:40%;
-	padding-right: 5%;
+	width:42%;
+	padding-right: 3%;
+}
+
+.intro-descrip p {
+	margin-top: 0;
 }
 
 h3 {
 	font-size:2em;
-	margin:0;
+	margin: 2% 0;
 
 }
 

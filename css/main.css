@@ -14,6 +14,8 @@ body {
     font-weight: 200;
     line-height: 1.5;
     color:#787878;
+    padding: 0 12%;
+	background-color:#787878;
 }
 
 header {
@@ -24,7 +26,7 @@ header {
     justify-content: space-between;
     -webkit-align-items: center;
     align-items: center;
-    padding: 2% 0;
+    padding: 1% 0;
     /*background-color: #FF8170;*/
     background-color: #03527F;
 }
@@ -32,6 +34,8 @@ header {
 .logo {
 	display: -webkit-flex;
 	display: flex;
+	width: 75%;
+	height: 75%;
 }
 
 .navlinks {
@@ -47,7 +51,7 @@ header {
 
 .navlinks a {
 	color: #FFFFFF;
-	font-size: 30px;
+	font-size: 24px;
 	font-weight: normal;
 }
 
@@ -59,14 +63,19 @@ h1{
 	color:#545454;
 }
 
-h2 {
+#homebar {
+	padding: 5%;
+}
+#homebar a {
 	font-family: 'AlegreyaSans', sans-serif;
 	color:#787878;
+	font-size: 24px;
 
 }
 
-h2 a:hover {
-
+#homebar a:hover {
+	color:#03527F;
+	font-weight: bold;
 } 
 
 .title{
@@ -90,7 +99,8 @@ h2 a:hover {
 }
 
 .banner {
-	padding: 10% 0%;
+	padding: 8% 0%;
+	background-color: #FFFFFF;
 }
 
 .banner img {
@@ -130,7 +140,7 @@ a {
 }
 
 .arrow-down:hover {
-	
+
 }
 
 img {
@@ -139,6 +149,18 @@ img {
 }
 
 .footer {
-	padding-bottom: 5%;
+	padding: 2% 0 2% 0;
 }
 
+.footer a {
+	margin: 0% .5%;
+}
+
+.footer p {
+	margin: 0%;
+}
+
+.main {
+	padding: 5% 0;
+	background-color: #FFFFFF;
+}
