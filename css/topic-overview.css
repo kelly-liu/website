@@ -8,6 +8,7 @@
 
 .project-item img {
 	width: 400px;
+	max-width: 100%;
 	height: auto;
 }
 
@@ -145,8 +146,23 @@ body {
 	padding-bottom: 5%;
 }
 
-/*@media screen and (max-width: 1144px) {
-	.project-expander ::after {
-		top:45.3%;
-	}*/
+@media screen and (max-width: 860px) {
+	.project-item img {
+		margin:auto;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	
+}
+
+@media screen and (max-width: 420px) {
+	.project-caption {
+		top: 195px;
+	}
+	.project-expander ::after{ 
+		top:270px;
+		border-width: 21px;
+
+	}
 }
