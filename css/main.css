@@ -17,15 +17,14 @@ body {
     font-family: 'NexaLight', sans-serif;
     font-weight: 200;
     line-height: 1.5;
-    color:#787878;
-	background-color:#787878;
+    background-color: #787878;
 }
 
-body .white {
+/*body .white {
 	background-color:#FFFFFF;
 	min-height: 100%;
 }
-
+*/
 
 header {
 	margin: 0%;
@@ -192,6 +191,7 @@ img {
 
 .footer a {
 	margin: 0% .5%;
+	color:#FFFFFF;
 }
 
 .footer p {
@@ -217,6 +217,27 @@ li {
 	float: left;
 	display:inline-block;
 	padding: 0 15px;
+}
+
+.animate-in {
+	-webkit-animation: fadeIn .7s ease-in;
+	animation: fadeIn .7s ease-in;
+}
+
+.animate-out {
+	-webkit-transition: opacity .7s;
+    transition: opacity .7s;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity: 1};
+}
+
+@keyframes fadeIn {
+	from {opacity: 0;}
+	to {opacity: 1}
 }
 
 @media screen and (max-width: 1000px) {
@@ -318,5 +339,6 @@ li {
 		margin: 0;
 	}
 }
+
 
 }

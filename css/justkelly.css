@@ -19,11 +19,11 @@
     border-color: #F1F1F2;*/
 }
 .project-item{
-	width: 275px;
+	width: 275px; /* TODO: don't keep this fixed lateronw!!! ;*/
 	height: 275px;
 	/*display: block;*/
 	position:relative;
-	/*margin: 2.75% 2%;*/
+	margin: 5px;
 	
 }
 
@@ -66,6 +66,6 @@ position:absolute;
 }
 
 .project-container:hover > .project-caption{
-	opacity: 1;
+	opacity: .8;
 	transition:.5s;
 }
