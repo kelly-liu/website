@@ -10,6 +10,10 @@ window.addEventListener("beforeunload", function() {
 	$(".animate-in").classList.add("animate-out");
 });
 
+$("nav").click(function() {
+	$("nav").toggleClass("responsive");
+})
+
 
 // $('.project-item').hover(function() {
 // 	var img = $(this).childreni().eq(0);
