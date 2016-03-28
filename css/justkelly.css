@@ -1,5 +1,5 @@
 .title {
-	padding-right: 15px;
+	padding: 0 20px 0 30px;
 }
 
 .banner-overview {
@@ -90,4 +90,41 @@ position:absolute;
 .project-container:hover > .project-caption{
 	opacity: .8;
 	transition:.3s;
+}
+
+
+@media screen and (max-width: 964px) {
+	
+	.tagline {
+		padding: 0 0 30px 0;
+		margin:auto;
+		text-align: center;
+	}
+}
+
+
+@media screen and (max-width: 726px) {
+	
+	.title {
+		font-size: 5.5em;
+		text-align: center;
+		line-height: 1;
+	}
+
+	.tagline {
+		padding: 20px 0 30px 0;
+		margin:auto;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 569px) {
+	.title {
+		font-size: 4.5em;
+		text-align: center;
+		line-height: 1;
+	}
+	.project-item img{
+		padding: 0;
+	}
 }
