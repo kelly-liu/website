@@ -14,11 +14,14 @@
 
 
 .footer {
+	background-color: #FFFFFF;
+	}
+
+.footer a {
 	color: #787878;
 	
 }
-
-.footer a {
+.footer p {
 	color: #787878;
 	
 }

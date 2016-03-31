@@ -24,10 +24,14 @@ $(document).ready(function(){
 			console.log(active.is('img'));
 
 			switchImage(active, chosenItemId);
-		
-
-
 	}, 4000);
+
+	$(".project-item").click(function() {
+		var chosenId = $(this).attr('id');
+		var active = $('#' + chosenId +  ' img.show');
+		console.log("chosenId", chosenId);
+			switchImageRapid(active, chosenId);
+		});
 
 	function switchImage(active, chosenItemId) {
 		
@@ -46,12 +50,33 @@ $(document).ready(function(){
 			active.addClass("animate-out");
 
 			active = $('#'+ chosenItemId + ' img:first');
-			console.log(active);
 			active.removeClass("animate-out");
 			active.addClass("show animate-in");
 		}
 
 		$(active).fadeIn();
+	}
+
+	function switchImageRapid(active, chosenItemId) {
+		
+		if ($(active).next().is('img')) {
+			console.log('continue');
+			active.removeClass("show");
+
+			active = $(active).next();
+			active.removeClass("animate-out animate-in");
+			active.addClass("show");
+
+		} else {
+			console.log('restart');
+			active.removeClass("show");
+
+			active = $('#'+ chosenItemId + ' img:first');
+			active.removeClass("animate-out animate-in");
+			active.addClass("show");
+		}
+
+		$(active).show();
 	}
 	
 });

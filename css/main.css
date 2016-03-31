@@ -1,6 +1,11 @@
 @font-face {
-    font-family: 'Muli';
+    font-family: 'Muli-Regular';
     src: url('fonts/Muli-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Muli-Light';
+    src: url('fonts/Muli-Light.ttf');
 }
 
 @font-face {
@@ -14,12 +19,11 @@ html, body {
 
 body {
     margin: 0;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Muli-Light', sans-serif;
     font-weight: 200;
     line-height: 1.5;
     background-color: #787878;
 }
-
 
 
 /*body .white {
